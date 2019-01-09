@@ -9,9 +9,16 @@
     <title>I am Berlin Lee</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
   </head>
   <body>
     <h1>I am Berlin Lee!</h1>
+    <script>
+      console.log("hha");
+      $.get("data.txt", function(data) {
+        console.log(data);
+      })
+    </script>
     <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
